@@ -17,7 +17,7 @@ Or ```pip install -r requirements.txt``` to install necessary packages.
 Download fastText [crawl-300d-2M-subword.bin](https://fasttext.cc/docs/en/english-vectors.html) to the current folder. For a smaller fastText word vector file with only words from 2018 TREC task, [click here](https://drive.google.com/open?id=1dNYCD5vuuGjT-BT-ZMfKYttU1UtUlOQg) to download from our google drive. If you are using the bin file, set ```binary=True``` in ```mtl.py```.
 
 ### TREC Data
-[Click Here](https://github.com/TREC-MTL-DATASET-CONSTRUCTION.ipynb) to view the Jupyter Notebook that provides detailed instructions to construct the TREC datasets for MTL. We don't directly provide them because the dataset is not ours. 
+[Click Here](https://github.com/anonymous-submission-cikm1121/crisis-tweet-mtdaan/blob/master/TREC-MTL-DATASET-CONSTRUCTION.ipynb) to view the Jupyter Notebook that provides detailed instructions to construct the TREC datasets for MTL. We don't directly provide them because the dataset is not ours. 
 
 ### MTL: Sample Run
 Run 
@@ -44,6 +44,6 @@ tweet = "rt <@> <number> buff : boston : police and fbi urging anyone with video
 prediction = 1
 attention = [('buff', 0.0254), ('boston', 0.0714), ('police', 0.0928), ('fbi', 0.0732), ('urging', 0.0831), ('anyone', 0.0324), ('with', 0.0359), ('video', 0.023), ('finish', 0.013), ('line', 0.0145), ('time', 0.0187), ('explosion', 0.0384), ('should', 0.0323), ('please', 0.0404), ('come', 0.0306), ('forward', 0.0379)]
 ```
-[Click Here](https://github.com/visualize_attention.ipynb) to view the Jupyter Notebook that shows the attention heat map.
+[Click Here](https://github.com/anonymous-submission-cikm1121/crisis-tweet-mtdaan/blob/master/visualize_attention.ipynb) to view the Jupyter Notebook that shows the attention heat map.
 
 

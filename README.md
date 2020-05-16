@@ -5,7 +5,7 @@
 **Purpose of the model**: Train a classifier using past crisis-events where plenty of data is available and generalize it to a new crisis-event with **zero** data. 
 
 ### Why use this method?
-- Unsupervised (no labeled target data is needed)
+- Unsupervised (no target data is needed)
 - Uses Multi-Task Learning to create a better generalizable model for the Low-Resource Crisis-Related Web Data (Tweets)
 - Interpretable Predictions
 

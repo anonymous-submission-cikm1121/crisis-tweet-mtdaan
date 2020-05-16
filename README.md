@@ -37,7 +37,7 @@ Run
 ```
 python vizualize_attention.py bostonBombings data/TASKS/priority/bostonBombings/pos priority
 ```
-This will train a MTL model by combining rest of the crisis events on the 4 tasks. And then, it outputs the attention weights of the tweets from the given file for the specific task. 
+This will train a MTL model by combining rest of the crisis events on the 4 tasks. And then, it outputs the attention weights of the tweets from the given file for the specific task. Option to change the task weights in command line will be added in the final version.
 Sample Result: 
 ```
 tweet = "rt <@> <number> buff : boston : police and fbi urging anyone with video of the finish line at the time of the explosion should please come forward . ."
@@ -45,5 +45,4 @@ prediction = 1
 attention = [('buff', 0.0254), ('boston', 0.0714), ('police', 0.0928), ('fbi', 0.0732), ('urging', 0.0831), ('anyone', 0.0324), ('with', 0.0359), ('video', 0.023), ('finish', 0.013), ('line', 0.0145), ('time', 0.0187), ('explosion', 0.0384), ('should', 0.0323), ('please', 0.0404), ('come', 0.0306), ('forward', 0.0379)]
 ```
 [Click Here](https://github.com/anonymous-submission-cikm1121/crisis-tweet-mtdaan/blob/master/visualize_attention.ipynb) to view the Jupyter Notebook that shows the attention heat map.
-
 
